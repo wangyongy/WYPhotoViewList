@@ -7,14 +7,29 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		B81FE3EF3A697F609381FB09 /* Pods_WYPhotoViewList.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 9CCD809695063B12338D301B /* Pods_WYPhotoViewList.framework */; };
 		CF0FAEF420BFCDF90072C597 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = CF0FAEF320BFCDF90072C597 /* AppDelegate.swift */; };
 		CF0FAEF620BFCDF90072C597 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = CF0FAEF520BFCDF90072C597 /* ViewController.swift */; };
 		CF0FAEF920BFCDF90072C597 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = CF0FAEF720BFCDF90072C597 /* Main.storyboard */; };
 		CF0FAEFB20BFCDFA0072C597 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = CF0FAEFA20BFCDFA0072C597 /* Assets.xcassets */; };
 		CF0FAEFE20BFCDFA0072C597 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = CF0FAEFC20BFCDFA0072C597 /* LaunchScreen.storyboard */; };
+		CF0FAF0D20BFCFF40072C597 /* HomedPhotoView.swift in Sources */ = {isa = PBXBuildFile; fileRef = CF0FAF0A20BFCFF40072C597 /* HomedPhotoView.swift */; };
+		CF0FAF0E20BFCFF40072C597 /* HomedConfig.swift in Sources */ = {isa = PBXBuildFile; fileRef = CF0FAF0B20BFCFF40072C597 /* HomedConfig.swift */; };
+		CF0FAF0F20BFCFF40072C597 /* HomedPhotoViewList.swift in Sources */ = {isa = PBXBuildFile; fileRef = CF0FAF0C20BFCFF40072C597 /* HomedPhotoViewList.swift */; };
+		CF0FAF1A20BFD0620072C597 /* 007.jpg in Resources */ = {isa = PBXBuildFile; fileRef = CF0FAF1120BFD0620072C597 /* 007.jpg */; };
+		CF0FAF1B20BFD0620072C597 /* 001.jpg in Resources */ = {isa = PBXBuildFile; fileRef = CF0FAF1220BFD0620072C597 /* 001.jpg */; };
+		CF0FAF1D20BFD0620072C597 /* 003.jpg in Resources */ = {isa = PBXBuildFile; fileRef = CF0FAF1420BFD0620072C597 /* 003.jpg */; };
+		CF0FAF1F20BFD0620072C597 /* 006.jpg in Resources */ = {isa = PBXBuildFile; fileRef = CF0FAF1620BFD0620072C597 /* 006.jpg */; };
+		CF0FAF2020BFD0620072C597 /* 002.jpg in Resources */ = {isa = PBXBuildFile; fileRef = CF0FAF1720BFD0620072C597 /* 002.jpg */; };
+		CF0FAF2120BFD0620072C597 /* 004.jpg in Resources */ = {isa = PBXBuildFile; fileRef = CF0FAF1820BFD0620072C597 /* 004.jpg */; };
+		CF0FAF2220BFD0620072C597 /* 005.jpg in Resources */ = {isa = PBXBuildFile; fileRef = CF0FAF1920BFD0620072C597 /* 005.jpg */; };
+		CF0FAF2420BFD2F20072C597 /* WYIcons.bundle in Resources */ = {isa = PBXBuildFile; fileRef = CF0FAF2320BFD2F20072C597 /* WYIcons.bundle */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		2524D273A77C19C8908762C2 /* Pods-WYPhotoViewList.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-WYPhotoViewList.debug.xcconfig"; path = "Pods/Target Support Files/Pods-WYPhotoViewList/Pods-WYPhotoViewList.debug.xcconfig"; sourceTree = "<group>"; };
+		8555C58E64357399F72FC77F /* Pods-WYPhotoViewList.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-WYPhotoViewList.release.xcconfig"; path = "Pods/Target Support Files/Pods-WYPhotoViewList/Pods-WYPhotoViewList.release.xcconfig"; sourceTree = "<group>"; };
+		9CCD809695063B12338D301B /* Pods_WYPhotoViewList.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_WYPhotoViewList.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		CF0FAEF020BFCDF90072C597 /* WYPhotoViewList.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = WYPhotoViewList.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		CF0FAEF320BFCDF90072C597 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		CF0FAEF520BFCDF90072C597 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
@@ -22,6 +37,17 @@
 		CF0FAEFA20BFCDFA0072C597 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		CF0FAEFD20BFCDFA0072C597 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		CF0FAEFF20BFCDFA0072C597 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		CF0FAF0A20BFCFF40072C597 /* HomedPhotoView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = HomedPhotoView.swift; sourceTree = "<group>"; };
+		CF0FAF0B20BFCFF40072C597 /* HomedConfig.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = HomedConfig.swift; sourceTree = "<group>"; };
+		CF0FAF0C20BFCFF40072C597 /* HomedPhotoViewList.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = HomedPhotoViewList.swift; sourceTree = "<group>"; };
+		CF0FAF1120BFD0620072C597 /* 007.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = 007.jpg; sourceTree = "<group>"; };
+		CF0FAF1220BFD0620072C597 /* 001.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = 001.jpg; sourceTree = "<group>"; };
+		CF0FAF1420BFD0620072C597 /* 003.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = 003.jpg; sourceTree = "<group>"; };
+		CF0FAF1620BFD0620072C597 /* 006.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = 006.jpg; sourceTree = "<group>"; };
+		CF0FAF1720BFD0620072C597 /* 002.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = 002.jpg; sourceTree = "<group>"; };
+		CF0FAF1820BFD0620072C597 /* 004.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = 004.jpg; sourceTree = "<group>"; };
+		CF0FAF1920BFD0620072C597 /* 005.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = 005.jpg; sourceTree = "<group>"; };
+		CF0FAF2320BFD2F20072C597 /* WYIcons.bundle */ = {isa = PBXFileReference; lastKnownFileType = "wrapper.plug-in"; path = WYIcons.bundle; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -29,17 +55,37 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				B81FE3EF3A697F609381FB09 /* Pods_WYPhotoViewList.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		1B83C99C8E21C57F65D8DD02 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				2524D273A77C19C8908762C2 /* Pods-WYPhotoViewList.debug.xcconfig */,
+				8555C58E64357399F72FC77F /* Pods-WYPhotoViewList.release.xcconfig */,
+			);
+			name = Pods;
+			sourceTree = "<group>";
+		};
+		460E073BC812291A2545542C /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				9CCD809695063B12338D301B /* Pods_WYPhotoViewList.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
 		CF0FAEE720BFCDF90072C597 = {
 			isa = PBXGroup;
 			children = (
 				CF0FAEF220BFCDF90072C597 /* WYPhotoViewList */,
 				CF0FAEF120BFCDF90072C597 /* Products */,
+				1B83C99C8E21C57F65D8DD02 /* Pods */,
+				460E073BC812291A2545542C /* Frameworks */,
 			);
 			sourceTree = "<group>";
 		};
@@ -56,12 +102,39 @@
 			children = (
 				CF0FAEF320BFCDF90072C597 /* AppDelegate.swift */,
 				CF0FAEF520BFCDF90072C597 /* ViewController.swift */,
+				CF0FAF0920BFCFEA0072C597 /* WYPhotoViewList */,
+				CF0FAF1020BFD02C0072C597 /* sources */,
 				CF0FAEF720BFCDF90072C597 /* Main.storyboard */,
 				CF0FAEFA20BFCDFA0072C597 /* Assets.xcassets */,
 				CF0FAEFC20BFCDFA0072C597 /* LaunchScreen.storyboard */,
 				CF0FAEFF20BFCDFA0072C597 /* Info.plist */,
 			);
 			path = WYPhotoViewList;
+			sourceTree = "<group>";
+		};
+		CF0FAF0920BFCFEA0072C597 /* WYPhotoViewList */ = {
+			isa = PBXGroup;
+			children = (
+				CF0FAF0B20BFCFF40072C597 /* HomedConfig.swift */,
+				CF0FAF0A20BFCFF40072C597 /* HomedPhotoView.swift */,
+				CF0FAF0C20BFCFF40072C597 /* HomedPhotoViewList.swift */,
+				CF0FAF2320BFD2F20072C597 /* WYIcons.bundle */,
+			);
+			path = WYPhotoViewList;
+			sourceTree = "<group>";
+		};
+		CF0FAF1020BFD02C0072C597 /* sources */ = {
+			isa = PBXGroup;
+			children = (
+				CF0FAF1220BFD0620072C597 /* 001.jpg */,
+				CF0FAF1720BFD0620072C597 /* 002.jpg */,
+				CF0FAF1420BFD0620072C597 /* 003.jpg */,
+				CF0FAF1820BFD0620072C597 /* 004.jpg */,
+				CF0FAF1920BFD0620072C597 /* 005.jpg */,
+				CF0FAF1620BFD0620072C597 /* 006.jpg */,
+				CF0FAF1120BFD0620072C597 /* 007.jpg */,
+			);
+			path = sources;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -71,9 +144,11 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = CF0FAF0220BFCDFA0072C597 /* Build configuration list for PBXNativeTarget "WYPhotoViewList" */;
 			buildPhases = (
+				80C558953567D6DFEB6B7799 /* [CP] Check Pods Manifest.lock */,
 				CF0FAEEC20BFCDF90072C597 /* Sources */,
 				CF0FAEED20BFCDF90072C597 /* Frameworks */,
 				CF0FAEEE20BFCDF90072C597 /* Resources */,
+				728DE87E6A9A5816176586AC /* [CP] Embed Pods Frameworks */,
 			);
 			buildRules = (
 			);
@@ -122,13 +197,62 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				CF0FAF1F20BFD0620072C597 /* 006.jpg in Resources */,
 				CF0FAEFE20BFCDFA0072C597 /* LaunchScreen.storyboard in Resources */,
+				CF0FAF2220BFD0620072C597 /* 005.jpg in Resources */,
+				CF0FAF1D20BFD0620072C597 /* 003.jpg in Resources */,
+				CF0FAF2120BFD0620072C597 /* 004.jpg in Resources */,
+				CF0FAF1A20BFD0620072C597 /* 007.jpg in Resources */,
 				CF0FAEFB20BFCDFA0072C597 /* Assets.xcassets in Resources */,
 				CF0FAEF920BFCDF90072C597 /* Main.storyboard in Resources */,
+				CF0FAF2420BFD2F20072C597 /* WYIcons.bundle in Resources */,
+				CF0FAF2020BFD0620072C597 /* 002.jpg in Resources */,
+				CF0FAF1B20BFD0620072C597 /* 001.jpg in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		728DE87E6A9A5816176586AC /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+				"${SRCROOT}/Pods/Target Support Files/Pods-WYPhotoViewList/Pods-WYPhotoViewList-frameworks.sh",
+				"${BUILT_PRODUCTS_DIR}/Kingfisher/Kingfisher.framework",
+				"${BUILT_PRODUCTS_DIR}/MBProgressHUD/MBProgressHUD.framework",
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputPaths = (
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/Kingfisher.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/MBProgressHUD.framework",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-WYPhotoViewList/Pods-WYPhotoViewList-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		80C558953567D6DFEB6B7799 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-WYPhotoViewList-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
 
 /* Begin PBXSourcesBuildPhase section */
 		CF0FAEEC20BFCDF90072C597 /* Sources */ = {
@@ -136,7 +260,10 @@
 			buildActionMask = 2147483647;
 			files = (
 				CF0FAEF620BFCDF90072C597 /* ViewController.swift in Sources */,
+				CF0FAF0F20BFCFF40072C597 /* HomedPhotoViewList.swift in Sources */,
+				CF0FAF0D20BFCFF40072C597 /* HomedPhotoView.swift in Sources */,
 				CF0FAEF420BFCDF90072C597 /* AppDelegate.swift in Sources */,
+				CF0FAF0E20BFCFF40072C597 /* HomedConfig.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -278,6 +405,7 @@
 		};
 		CF0FAF0320BFCDFA0072C597 /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 2524D273A77C19C8908762C2 /* Pods-WYPhotoViewList.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
@@ -295,6 +423,7 @@
 		};
 		CF0FAF0420BFCDFA0072C597 /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 8555C58E64357399F72FC77F /* Pods-WYPhotoViewList.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
